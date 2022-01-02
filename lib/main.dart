@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_first_flutter/app_bar/app_bar_default.dart';
 import 'package:my_first_flutter/app_bar/silver_app_bar.dart';
+import 'package:my_first_flutter/main_axis/axis_alignment.dart';
 
 import 'basic_ui/BasicUi.dart';
 import 'font_style/ImportFonts.dart';
@@ -31,6 +32,6 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: ImportFonts());
+        home: CAxisAlignment());
   }
 }
