@@ -9,7 +9,6 @@ class BasicUi extends StatelessWidget {
       appBar: AppBar(
         title: Text("My first flutter"),
         backgroundColor: Colors.red,
-        elevation: 30.0,
         actions: <Widget>[
           IconButton(
               icon: const Icon(Icons.add_alert),
@@ -54,6 +53,9 @@ class BasicUi extends StatelessWidget {
       ),
       body: SafeArea(
         child: Container(
+          color: Colors.blue,
+          margin: EdgeInsets.only(left: 30.0,top: 0),
+          padding: EdgeInsets.only(left: 30.0,top: 30.0,right: 30.0),
           child: Column(
             children: [
               Image(image: AssetImage('assets/gambar/ktp.jpeg'),height: 200,),
